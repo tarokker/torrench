@@ -5,7 +5,7 @@ import sys
 try:
     from setuptools import setup
 except ImportError:
-        print("Missing package setuptools. Please install to continue\n(https://pypi.python.org/pypi/setuptools)")
+        print("Missing package setuptoolsx. Please install to continue\n(https://pypi.python.org/pypi/setuptools)")
         sys.exit('Exiting now!!')
 
 DESCRIPTION = 'Command-line torrent search program for Windows, Linux and  MacOS'
